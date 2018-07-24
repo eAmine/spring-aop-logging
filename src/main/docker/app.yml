@@ -1,0 +1,6 @@
+version: '2'
+services:
+    logging-app:
+        image: logging
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod
