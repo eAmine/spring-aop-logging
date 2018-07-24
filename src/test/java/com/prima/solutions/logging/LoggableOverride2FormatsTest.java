@@ -61,7 +61,6 @@ public class LoggableOverride2FormatsTest {
         }
 
         @Bean
-        @Profile("override-formats")
         public LoggerFormats loggerFormats() {
             LoggerFormats format = new LoggerFormats();
             format.setEnter("");
